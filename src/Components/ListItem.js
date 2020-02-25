@@ -13,7 +13,7 @@ class ListItem extends Component {
         <h4>
           {todo.title}
                 <span onClick={() => this.handleComplete(todoId
-                    < i > Done</i>
+                    < i > Done</i>)}
           </span>
         </h4>
       </div>
