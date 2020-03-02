@@ -6,9 +6,10 @@ const config = {
   projectId: "firedux-todotest",
   storageBucket: "firedux-todotest.appspot.com",
   messagingSenderId: "601308518404",
-  appId: "1:601308518404:web:380d38ac6926506691bd51",
-  measurementId: "G-MJ6VSWEHZE"
+  appId: "1:601308518404:web:11de844d01c3a76291bd51",
+  measurementId: "G-PEK3FN2226"
 };
 firebase.initializeApp(config);
 const databaseRef = firebase.database().ref();
+firebase.analytics();
 export const todosRef = databaseRef.child("todos");
